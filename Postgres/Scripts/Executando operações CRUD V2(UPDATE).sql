@@ -71,6 +71,10 @@ UPDATE aluno
 	matriculado_em = '2025-04-09 17:50:00' 
  WHERE id = 1;
 
+SELECT * FROM aluno WHERE nome = 'Luucas';
 
+DELETE 
+	FROM aluno 
+	WHERE nome = 'Luucas';
 
 
